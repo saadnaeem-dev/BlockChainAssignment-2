@@ -5,7 +5,7 @@ html
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='A live blockchain demo in a browser.')
-    meta(name='author', content='Anders Brownworth')
+    meta(name='author', content='Saad Naeem')
     link(rel='icon', href='/favicon.ico')
 
     title Blockchain Demo
@@ -34,20 +34,14 @@ html
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href='/') #{__('Blockchain Demo')}
+          a.navbar-brand(href='/') #{__('Saad Naeem i19-1207')}
         #navbar.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right
-            li(class={active: page === 'hash'})
-              a(href='/hash') #{__('Hash')}
+            
             li(class={active: page === 'block'})
               a(href='/block') #{__('Block')}
             li(class={active: page === 'blockchain'})
               a(href='/blockchain') #{__('Blockchain')}
-            li(class={active: page === 'distributed'})
-              a(href='/distributed') #{__('Distributed')}
-            li(class={active: page === 'tokens'})
-              a(href='/tokens') #{__('Tokens')}
-            li(class={active: page === 'coinbase'})
-              a(href='/coinbase') #{__('Coinbase')}
+           
 
     block content
