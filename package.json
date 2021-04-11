@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anders94/blockchain-demo.git"
+    "url": "git+https://github.com/saadnaeem-dev/BlockChainAssignment-2.git"
   },
   "bugs": {
     "url": "https://github.com/anders94/blockchain-demo/issues"
@@ -35,8 +35,8 @@
   "homepage": "https://github.com/anders94/blockchain-demo#readme",
   "maintainers": [
     {
-      "name": "anders",
-      "email": "anders-git@evantide.com"
+      "name": "saad",
+      "email": "saad.naeem@nu.edu.pk"
     }
   ]
 }
